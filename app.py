@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pypdf
+import pypdf as PyPDF2  # Uses the modern pypdf package
 import io
 import spacy
 from spacy.matcher import PhraseMatcher
